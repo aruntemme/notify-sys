@@ -42,7 +42,7 @@ notify.UseServices(telegramService)
 // Send a test message.
 _ = notify.Send(
 	context.Background(),
-	"Hello, sandy bunda :)",
-	"KIIII",
+	"Sub :)",
+	"Test message from notify",
 )
 }
